@@ -1,0 +1,58 @@
+# Ignorar archivos y directorios de Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Ignorar archivos temporales creados por editores y sistemas
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+
+# Ignorar archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Ignorar metadatos de los sistemas de versiones
+.hg/
+.svn/
+*.git/
+
+# Ignorar archivos de configuración de editor de texto
+*.vscode/
+.idea/
+*.sublime*
+
+# Ignorar archivos PDF, DOCX, y otros formatos si no son necesarios
+*.pdf
+*.docx
+
+# Ignorar imágenes si no son necesarias
+img/
+
+# Ignorar archivos de salida de LaTeX si no son necesarios
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+*.out
+*.toc
+*.lof
+*.lot
+*.tex.backup
