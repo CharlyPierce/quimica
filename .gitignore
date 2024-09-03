@@ -36,11 +36,11 @@ ENV/
 *.sublime*
 
 # Ignorar archivos PDF, DOCX, y otros formatos si no son necesarios
-*.pdf
-*.docx
+#*.pdf
+#*.docx
 
 # Ignorar imágenes si no son necesarias
-img/
+#img/
 
 # Ignorar archivos de salida de LaTeX si no son necesarios
 *.aux
